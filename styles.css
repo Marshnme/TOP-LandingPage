@@ -8,6 +8,7 @@
 body{
     margin:0 auto;
     height:100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -120,7 +121,7 @@ ul li , a{
     width:80%;
     margin: 0px auto;
     margin-bottom:80px;
-    /* gap:20px; */
+    gap:20px;
 }
 
 .info-content div{
@@ -128,7 +129,7 @@ ul li , a{
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    width:70%;
+    width:80%;
     gap: 10px;
 }
 
@@ -138,6 +139,7 @@ ul li , a{
     border-radius: 15px;
     width: 100%;
 }
+
 /* END INFO */
 
 
@@ -168,6 +170,67 @@ ul li , a{
 
 /* END QUOTE */
 
+
+/* CALL TO ACTION  */
+
+.signup{
+    width:80%;
+    margin: 0px auto;
+    height:35vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-border{
+    background-color:#3882f6;
+    padding:50px 50px;
+    border-radius: 8px;
+    width:100%;
+}
+
+.signup-content{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.signup-time{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signup-content button{
+    padding:10px 40px;
+    border-radius: 5px;
+    background-color:#3882f6 ;
+    color:#E5E7EB;
+    border:2px solid #E5E7EB;
+    border-color: #E5E7EB;
+    font-weight: bold;
+}
+
+
+
+/* END CALL TO ACTION */
+
+
 /* END MAIN STYLES */
 
+
+/* FOOTER STYLES */
+ footer{
+     display:flex;
+     background-color:#1F2937 ;
+     height:10vh;
+     color:#E5E7EB;
+     font-weight: bold;
+     justify-content:center;
+     align-items: center;
+ }
+
+/* END FOOTER STYLES */
 
