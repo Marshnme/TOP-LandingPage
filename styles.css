@@ -7,7 +7,7 @@
 
 body{
     margin:0 auto;
-    height:100vh;
+    height:100%;
 }
 
 .container{
@@ -92,6 +92,8 @@ ul li , a{
 
 
 /* MAIN STYLING */
+
+/* INFO */
 .information{
     display:flex;
     flex-flow: column nowrap;
@@ -100,6 +102,7 @@ ul li , a{
     margin: 0px auto;
     gap:40px;
     margin-top:40px;
+    height:52vh;
 }
 
 .information h3{
@@ -135,9 +138,36 @@ ul li , a{
     border-radius: 15px;
     width: 100%;
 }
+/* END INFO */
 
 
+/* QUOTE STYLES */
+    .quote{
+        background-color:#E5E7EB;
+    }
 
+    .quote-content{
+        width:60%;
+        margin: 0 auto;
+        height:52vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .quote-content h4{
+        font-size: 36px;
+        color:#1f2937;
+    }
 
+    .quote-content p{
+        align-self: flex-end;
+        font-weight: bold;
+        margin-right:20px;
+    }
+
+/* END QUOTE */
 
 /* END MAIN STYLES */
+
+
