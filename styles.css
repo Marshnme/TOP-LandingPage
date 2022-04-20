@@ -14,6 +14,7 @@ body{
     height:100%;
 }
 
+/* HEADER STYLING */
 header{
     padding:10px;
     background-color: #1F2937;
@@ -86,3 +87,57 @@ ul li , a{
     align-items: center;
     background-color:gray   ;
 }
+
+/* END HEADER STYLES */
+
+
+/* MAIN STYLING */
+.information{
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width:80%;
+    margin: 0px auto;
+    gap:40px;
+    margin-top:40px;
+}
+
+.information h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    /* margin-bottom:40px; */
+}
+
+.information .info-content{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    width:80%;
+    margin: 0px auto;
+    margin-bottom:80px;
+    /* gap:20px; */
+}
+
+.info-content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:70%;
+    gap: 10px;
+}
+
+.info-imgs{
+    border:3px solid #3882f6;
+    padding:50px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+
+
+
+
+/* END MAIN STYLES */
